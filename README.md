@@ -73,7 +73,11 @@ https://books-own-api.onrender.com/filter?author={author_name}
 ```
 **Example Request:**  
 ```
+<<<<<<< HEAD
 http://localhost:3000/filter/author?author={authorName}
+=======
+https://books-own-api.onrender.com/filter?author=Harper%20Lee
+>>>>>>> ddb3dc8d48bda6d343e902079459065f5c0b23f7
 ```
 **Response:**  
 ```json
@@ -91,6 +95,7 @@ http://localhost:3000/filter/author?author={authorName}
 
 ---
 
+<<<<<<< HEAD
 
 ## **4. Filter Books by Genre**
 **Endpoint:**  
@@ -206,6 +211,9 @@ http://localhost:3000/filter/genre?genre={genre_name}
 
 
 ## **5. Add a New Book**
+=======
+## **4. Add a New Book**
+>>>>>>> ddb3dc8d48bda6d343e902079459065f5c0b23f7
 **Endpoint:**  
 ```
 POST /books
@@ -244,7 +252,11 @@ https://books-own-api.onrender.com/books
 
 ---
 
+<<<<<<< HEAD
 ## **6. Update a Book (Full Update)**
+=======
+## **5. Update a Book (Full Update)**
+>>>>>>> ddb3dc8d48bda6d343e902079459065f5c0b23f7
 **Endpoint:**  
 ```
 PUT /books/{id}
@@ -277,7 +289,11 @@ https://books-own-api.onrender.com/books/{id}
 
 ---
 
+<<<<<<< HEAD
 ## **7. Update a Book (Partial Update)**
+=======
+## **6. Update a Book (Partial Update)**
+>>>>>>> ddb3dc8d48bda6d343e902079459065f5c0b23f7
 **Endpoint:**  
 ```
 PATCH /books/{id}
@@ -306,7 +322,11 @@ https://books-own-api.onrender.com/books/{id}
 
 ---
 
+<<<<<<< HEAD
 ## **8. Delete a Book**
+=======
+## **7. Delete a Book**
+>>>>>>> ddb3dc8d48bda6d343e902079459065f5c0b23f7
 **Endpoint:**  
 ```
 DELETE /books/{id}
